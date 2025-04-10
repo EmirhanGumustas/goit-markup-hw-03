@@ -14,20 +14,26 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="#" class="logo-"> <img href="#" /><span class="logo">WEB</span>STUDIO</a>
-        <ul>
-          <li><a href="#">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+      <nav class="nav-bar">
+        <div class="nav-wrapper">
+          <a href="#" class="logo-"> <img href="#" /><span class="logo">WEB</span>STUDIO</a>
+        <div>
+           <ul class="flex">
+                <li><a href="#">Studio</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contacts</a></li>
         </ul>
-      </nav>
-      <address>
-        <ul>
-          <li>info@devstudio.com +11</li>
-          <li>(000) 111-11-11</li>
-        </ul>
+        </div>
+        <address>
+        <div>
+           <ul class="flex-ul">
+              <li>info@devstudio.com +11</li>
+              <li>(000) 111-11-11</li>
+          </ul>
+
+        </div>
       </address>
+      </nav>
     </header>
     <main>
       <section class="section-one">
@@ -105,7 +111,8 @@
       <section>
         <h2 class="center">Our Portfolio</h2>
         <ul>
-          <li class="border"> 
+          <div class="flex-protfolio container-portfolio">
+            <li class="border"> 
             <img
               src="./images/portfolio.jpg"
               alt="Marketing"
@@ -177,15 +184,20 @@
               <p>App</p>
             </div>
           </li>
+          </div>
         </ul>
       </section>
     </main>
     <footer>
-      <h5 class="logo-"><span class="logo">WEB</span>STUDIO</h5>
-      <p class=" center frame">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="frame-footer">
+          <div class="frame-footer-two">
+                <h5 class="logo-"><span class="logo">WEB</span><span class="footer-white">STUDIO</span></h5>
+            <p>
+              Increase the flow of customers and sales for your business with digital
+              marketing & growth solutions.
+            </p>
+          </div>
+      </div>
     </footer>
   </body>
 </html>
