@@ -2,10 +2,9 @@ body{
     font-family: "Raleway","Roboto" ,sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
 }
 ul{
-      list-style-type: none;
+      list-style-type: none;    
       
 }
 .logo{
@@ -35,7 +34,12 @@ h1{
 .section-one{
     background-color: #2e2f42;
     color:white;
-    text-align: center;
+    height: 600px;
+    width: 1440px;
+    margin: 0 auto;
+        display: flex;
+    justify-content: center;
+    align-items: center;
 }
 button{
   font-weight: 500;
@@ -51,7 +55,8 @@ button:hover{
 }
 .frame{
   width: 274px;
-   height: 104px;
+  height: 104px;
+  margin-right:24px ;
 }
 
 h2{
@@ -118,4 +123,18 @@ padding:16px;
 .section-three ul{
 display: flex;
 justify-content: center;
+}
+.display-flex-section-two{
+  display: flex;  
+  flex-direction: row;
+  justify-content: center;
+  margin: 120px 156px;
+}
+.margin-bottom{
+  margin-bottom: 8px;
+}
+.display-flex-section-one{
+display: flex;
+flex-direction: column;
+align-items: center;
 }
