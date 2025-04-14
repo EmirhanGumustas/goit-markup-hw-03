@@ -38,6 +38,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.nav-menu a:hover{
+  color: #404BBF;
+}
+
 .contact{
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -70,6 +74,9 @@ ul li a{
 .contact ul li{
   color: #434455;
 }
+.contact ul li:hover{
+  color: #404BBF;
+}
 
 nav > ul {
   display: flex;
@@ -81,10 +88,15 @@ a {
 }
 /*Ortak section padding*/
 .section {
-  padding: 120px 0;
+  padding: 60px 0;
    margin: 0;
 }
-
+.padding-bottom{
+  padding-bottom: 120px;
+}
+.padding-top{
+  padding-top: 120px;
+}
 img {
   display: block;
   max-width: 100%;
@@ -125,6 +137,9 @@ button{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+}
+button:hover{
+  background-color: #404BBF;
 }
 .display-flex-section-two{
   display: flex;
@@ -192,13 +207,14 @@ button{
   letter-spacing: 0.02em;
   text-align: center;
   font-family: "Roboto", sans-serif;
+  margin-top: 120px;
 
 } 
 /*4. section*/
 .portfolio{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;  
+  gap: 24px; 
 }
 .section-four h2{
   display: flex;
@@ -209,11 +225,15 @@ button{
   letter-spacing: 0.02em;
   text-align: center;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 72px;
 }
 .frame-four{
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
+}
+.frame-four-margin{
+   margin-bottom: 24px;
 }
 .portfolio h3{
   margin-top: 32px;
