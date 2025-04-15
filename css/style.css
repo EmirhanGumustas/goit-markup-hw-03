@@ -17,6 +17,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
   padding: 0px 15px;
   width: 100%;
 }
+.container-two {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  width: 100%;
+}
 /*Header*/
 .display-flex{
   display: flex;
@@ -172,7 +178,7 @@ button:hover{
   margin-top: 8px;
   font-family: "Roboto", sans-serif;
 }
-/* 3. Section */
+/* 3. Seztion */
 .section-three{
   display: flex;
   flex-direction: column;
@@ -184,6 +190,7 @@ button:hover{
   display: flex;
   gap: 24px;
   margin: 72px 156px 120px 156px ;
+  justify-content: center;
 
 }
 .team li h3{
