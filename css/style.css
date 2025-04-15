@@ -124,6 +124,7 @@ h1{
   width: 496px;
   height: 120px;
   color: white;
+  margin-top:92px;
 }
 /*2.Section Buton*/
 button{
@@ -141,6 +142,10 @@ button{
   margin: auto;
   border: none;
   margin-top:48px;
+  cursor: pointer;
+  margin-bottom: 92px;
+
+
 }
 button:hover{
   background-color: #404BBF;
@@ -277,6 +282,7 @@ background-color: #2E2F42;
   letter-spacing: 0.02em;
   font-family: "Roboto", sans-serif;
   padding-bottom: 100px;
+      padding-bottom: 100px;
 }
 .frame-footer-white{
   color: white;
